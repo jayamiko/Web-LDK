@@ -1,43 +1,29 @@
 .aboutHome {
   height: auto;
+  margin-bottom: 100px;
+  background-image: url("../../../public/images/LDK1.jpg");
+  background-size: cover;
+  background-position-y: bottom;
 }
-.aboutHome #heading {
-  text-align: left;
-  padding: 0;
-}
+
 .aboutHome .left img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
-.aboutHome .right {
-  padding: 80px 50px;
-}
-.aboutHome .items {
-  margin-top: 50px;
-}
+
 .aboutHome .item {
-  background-color: #fff;
   margin-top: 30px;
   padding: 20px;
   transition: 0.5s;
 }
-.aboutHome .img {
-  width: 200px;
-}
-.aboutHome img {
-  width: 70px;
-  height: 70px;
-}
 .aboutHome .item h2 {
   font-size: 20px;
-  margin-bottom: 15px;
 }
 .aboutHome .item p {
   color: #999999;
 }
 .aboutHome .item:hover {
-  background-color: #1eb2a6;
   color: #fff;
   cursor: pointer;
   box-shadow: 0 5px 25px -2px rgb(0 0 0 / 6%);
@@ -46,15 +32,15 @@
   color: #fff;
 }
 /*----------awrapper------------*/
-.awrapper {
+/* .awrapper {
   background-image: url("../../../public/images/awrapper.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   height: 30vh;
   color: #fff;
-}
-.awrapper .box {
+} */
+/* .awrapper .box {
   padding: 70px 0;
 }
 .awrapper img {
@@ -66,7 +52,7 @@
 .awrapper h3 {
   font-size: 20px;
   font-weight: 500;
-}
+} */
 /*----------awrapper------------*/
 @media screen and (max-width: 768px) {
   .aboutHome .container {
@@ -75,7 +61,11 @@
   .aboutHome .row {
     width: 100%;
   }
-  .awrapper {
+  /* .aboutHome .left img {
+    width: 100%;
+    height: 80%;
+  } */
+  /* .awrapper {
     height: 50vh;
-  }
+  } */
 }
